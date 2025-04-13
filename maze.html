@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Maze Solver</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Light background color for better contrast */
+        }
+    
+        h1 {
+            margin-bottom: 20px;
+        }
+    
+        #maze {
+            display: grid;
+            grid-template-columns: repeat(16, 30px); /* Adjust according to maze size */
+            grid-gap: 1px;
+        }
+    
+        .cell {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ddd;
+            font-size: 20px;
+        }
+    
+        .empty {
+            background-color: white;
+        }
+    
+        .wall {
+            background-color: black;
+        }
+    
+        .path {
+            background-color: green;
+        }
+    
+        .start {
+            background-color: green;
+            color: white;
+        }
+    
+        .goal {
+            background-color: red;
+            color: white;
+        }
+    
+        .btn {
+            margin: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Maze Solver</h1>
+    <div id="maze"></div>
+    <button type="button" class="btn btnSolve btn-primary btn-lg">Solve</button>
+    <button type="button" class="btn btnVisualize btn-secondary btn-lg">Visualize</button>
+    <script src="mazeSolver.js"></script>
+</body>
+</html>
