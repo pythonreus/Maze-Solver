@@ -1,6 +1,6 @@
 # 🧩 Maze Solver Visualizer
 
-A simple maze-solving visualizer using **Breadth-First Search (BFS)** built with HTML, CSS, and JavaScript. This project takes a predefined 16x16 maze and finds the shortest path from a **Start (S)** point to a **Goal (G)** point. The path, once found, is marked with `*`.
+A simple maze-solving visualizer using **Breadth-First Search (BFS)** built with HTML, Bootstrap, and JavaScript. This project takes a predefined 16x16 maze and finds the shortest path from a **Start (S)** point to a **Goal (G)** point. The path, once found, is marked with `*`.
 
 ## 🎮 Features
 
@@ -8,10 +8,6 @@ A simple maze-solving visualizer using **Breadth-First Search (BFS)** built with
 - 🔍 Uses **BFS algorithm** to find the shortest path
 - ✨ Visualizes the solution by tracing the shortest path
 - 🧠 Clean UI with easy-to-understand maze structure
-
-## 📸 Demo
-
-![Maze Solver Demo](demo.gif) <!-- Replace with an actual GIF or screenshot if available -->
 
 ## 🚀 Getting Started
 
