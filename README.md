@@ -15,3 +15,46 @@ A simple maze-solving visualizer using **Breadth-First Search (BFS)** built with
    ```bash
    git clone https://github.com/pythonreus/Maze-Solver.git
    cd Maze-Solver
+
+## 🧭 Running the Project
+
+1. Open the `index.html` file in your browser  
+2. No server setup needed – it's fully client-side!
+
+---
+
+## 🧠 How It Works
+
+- The maze is represented as a **2D array**.
+- The **Breadth-First Search (BFS)** algorithm explores the shortest path from the **Start (S)** to the **Goal (G)**.
+- A **parent tracking array** is used to trace the final path.
+- The solution path is visually marked with `*` and rendered in real time on the grid.
+
+---
+
+## 🕹️ Controls
+
+- **Solve Maze**: Click the **Solve** button to compute and display the shortest path.
+- **Visualize**: *This is yet to be implemented! Coming soon!
+
+---
+
+## 🧱 Maze Symbols
+
+| Symbol | Meaning           |
+|--------|-------------------|
+| `S`    | Start Point       |
+| `G`    | Goal Point        |
+| `#`    | Wall / Obstacle   |
+| (space)| Empty Space       |
+| `*`    | Path from S to G  |
+
+---
+
+## 🧩 Technologies Used
+
+- HTML 
+- Bootstrap
+- JavaScript (Vanilla)  
+- BFS (Breadth-First Search) Pathfinding Algorithm  
+
