@@ -1,5 +1,5 @@
-const rows = 16; // Example size; adjust as needed
-const cols = 16; // Example size; adjust as needed
+const rows = 16;
+const cols = 16; 
 
 const maze = [
     ['S', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '],
