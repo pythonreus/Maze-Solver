@@ -15,6 +15,7 @@ A simple maze-solving visualizer using **Breadth-First Search (BFS)** built with
 ```bash
 git clone https://github.com/your-username/maze-solver-visualizer.git
 cd maze-solver-visualizer
+```
 
 ## 🧭 Running the Project
 
